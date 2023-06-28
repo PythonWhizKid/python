@@ -13,7 +13,7 @@ W = float(input("Enter weight in kilograms "))
 sleep(1)
 print("Perfect...")
 sleep(1)
-U = str(input("Write 'cm', if you know your height in centimetres and 'm' for metres... "))
+U = str(input("Write 'cm', if you know your height in centimetres, 'in' for inches and 'm' for metres... "))
 sleep(1)
 H = float(input("Enter your height in "+ U + "... " ))
 #we used plus above so that we can combine the three arguments into one (Enter..height, U and ...)
@@ -24,6 +24,9 @@ if U == "cm":
     BMI = W*10000/(H**2)
 elif U == "m":
     BMI = W/(H**2)
+elif U == "in":
+    BMI = W*1550.0024118/ (H**2)
+    #1 metre = 39.37007 inches and 39.37007 ** 2 = 1550.0024118
 else:
     print("Try again! ")
 print("Your BMI is... ", float(BMI))

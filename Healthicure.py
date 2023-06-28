@@ -15,8 +15,8 @@ print("Perfect...")
 sleep(1)
 U = str(input("Write 'cm', if you know your height in centimetres and 'm' for metres... "))
 sleep(1)
-H = float(input("Enter your height in "+ U ))
-#we used plus above so that we can combine the two arguments into one (Enter..height and U)
+H = float(input("Enter your height in "+ U + "... " ))
+#we used plus above so that we can combine the three arguments into one (Enter..height, U and ...)
 sleep(1)
 print("Please wait while we process the data...")
 sleep(1)
@@ -47,4 +47,3 @@ elif BMI >= 40:
     print("Thanks for using Healthicure!")
 else:
     print("Please enter details correctly...")
-  

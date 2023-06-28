@@ -1,4 +1,5 @@
 #Lets create a BMI calculator with feedback support
+#Also user can choose which unit to put height in
 from time import sleep
 print("Welcome to Healthicure...")
 sleep(1)

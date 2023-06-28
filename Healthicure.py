@@ -12,11 +12,19 @@ W = float(input("Enter weight in kilograms "))
 sleep(1)
 print("Perfect...")
 sleep(1)
-H = float(input("Enter your height in metres "))
+U = str(input("Write 'cm', if you know your height in centimetres and 'm' for metres... "))
+sleep(1)
+H = float(input("Enter your height in "+ U + %))
+#we used plus above so that we can combine the three arguments into one (Enter..height, U and %)
 sleep(1)
 print("Please wait while we process the data...")
 sleep(1)
-BMI = W/(H**2)
+if U == "cm":
+    BMI = W*10000/(H**2)
+elif U == "m":
+    BMI = W/(H**2)
+else:
+    print("Try again! ")
 print("Your BMI is... ", float(BMI))
 sleep(1)
 
@@ -38,3 +46,4 @@ elif BMI >= 40:
     print("Thanks for using Healthicure!")
 else:
     print("Please enter details correctly...")
+  

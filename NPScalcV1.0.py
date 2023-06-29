@@ -14,7 +14,7 @@ from PyQt5.QtWidgets import QVBoxLayout
 from PyQt5.QtWidgets import QWidget
 
 __version__ = "1.0"
-__author__ = "Nishchya Pratap Singh"
+__author__ = "@pythonwhizkid"
 
 ERROR_MSG = "ERROR"
 

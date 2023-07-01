@@ -1,4 +1,4 @@
-#I currently can't build this in one go... I made this code 2 years ago but I have been cut from python since :(
+#I currently can't build this in one go... I made this code 2 years ago with help of PyQt5 designer but I have been cut from python since :(
 import sys
 
 from functools import partial

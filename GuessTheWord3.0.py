@@ -163,7 +163,7 @@ for w, meaning in dict.items():
     w = random.choice(list(dict.keys()))
     print(w[0:3])
     sleep(0.8)
-    print("Guess the 7 letter word (Starting 3 letters are given")
+    print("Guess the 7/8 letter word (Starting 3 letters are given")
     sleep(0.8)
     print(dict[w])
     sleep(0.8)

@@ -12,8 +12,8 @@ for w in list:
     inp = input("Guess the 7 letter word (Alternate letters are eliminated '2,4,6'): ")
     
     if inp ==  w:
-        print("Well done")
-        c = input("Enter any letter: ")
+        print("Well done!")
+        c = input("Enter any letter to continue: ")
         continue
     else:
         cc = input("Try again! Enter any letter to continue: ")

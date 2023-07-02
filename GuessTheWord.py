@@ -13,7 +13,7 @@ for w in list:
     
     if inp ==  w:
         print("Well done")
-        c = input("Enter any letter: ")
+        c = input("Enter any letter to continue: ")
         continue
     else:
         print("Better luck next time! The correct word is: ", w)

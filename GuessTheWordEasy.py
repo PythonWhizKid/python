@@ -9,7 +9,7 @@ for w in list:
     
     print(w[0:4])
     sleep(0.8)
-    inp = input("Guess the 7 letter word (Alternate letters are eliminated '2,4,6'): ")
+    inp = input("Guess the 7 letter word (First 4 letters are given): ")
     
     if inp ==  w:
         print("Well done")
